@@ -163,6 +163,7 @@ file:///Users/mark/dev/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/comp
 file:///Users/mark/dev/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/recording_canvas.dart
 file:///Users/mark/dev/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/runtime_delegate.dart
 file:///Users/mark/dev/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/surface.dart
+file:///Users/mark/dev/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/text.dart
 file:///Users/mark/dev/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/util.dart
 file:///Users/mark/dev/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/vertices.dart
 file:///Users/mark/dev/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/viewport_metrics.dart

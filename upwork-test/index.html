@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+
+<body>
+<script src="https://plugin.argyle.io/argyle.web.v1.js"></script>
+<script type="text/javascript">
+  const argyle = Argyle.create({
+    pluginKey: 'd4086eb9-10b1-4acb-b093-14843c859998',
+    apiHost: 'https://api.argyle.io/v1',
+    dataPartners: ['uber'],
+    onAccountCreated: ({accountId, userId}) => {
+      console.log("Account created: ", accountId, " User ID:", userId)
+    },
+    onAccountUpdated: ({accountId, userId}) => {
+      console.log("Account updated: ", accountId, " User ID:", userId)
+    },
+    onAccountRemoved: ({accountId, userId}) => {
+      console.log("Account removed: ", accountId, " User ID:", userId)
+    },
+    onUserCreated: ({userId, userToken}) => {
+      console.log("User created: ", userId)
+    }
+  });
+  argyle.open();
+</script>
+
+
+
+</body>
+</html>

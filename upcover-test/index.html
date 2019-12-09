@@ -1,19 +1,21 @@
 <!DOCTYPE html>
+<!--suppress BuyFluidPluginNoteInspection -->
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
 
-<body>
+<body id="main-body">
 <script src="https://plugin.argyle.io/argyle.web.v1.js"></script>
 <script type="text/javascript">
+
+
   const argyle = Argyle.create({
-    pluginKey: '57ac593f-1db0-4ea5-8d44-54b71a1f0b81',
-    apiHost: 'https://api-sandbox.argyle.io/v1',
+    pluginKey: 'd4086eb9-10b1-4acb-b093-14843c859998',
+    apiHost: 'https://api.argyle.io/v1',
     dataPartners: ['uber'],
     onAccountCreated: ({accountId, userId}) => {
-      console.log("Account created: ", accountId, " User ID:", userId);
-Print.postMessage('Hello Rahuuuuuul');
+      console.log("Account created: ", accountId, " User ID:", userId)
     },
     onAccountUpdated: ({accountId, userId}) => {
       console.log("Account updated: ", accountId, " User ID:", userId)
